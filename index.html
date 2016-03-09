@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Please wait...</title>
+</head>
+<body>
+<script>
+
+var gui = require("nw.gui");
+var os = require('os');
+
+window.onload = function() {
+  gui.Window.get().show();
+  if(gui.App.argv!="") {
+	location.href=gui.App.argv;
+  }
+}
+
+// get the system platform using node.js
+//document.write('You are running on ', os.platform());
+
+//var findpath = require('nodewebkit').findpath;
+//var nwpath = findpath();
+//document.write('You are running from ', nwpath);
+</script>
+</body>
+</html>
