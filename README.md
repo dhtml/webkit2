@@ -1,8 +1,8 @@
-# Webkit 
+# Webkit 2
 
 ## What am I looking at?
 
-You are looking at the node webkit browser that powers [phpbrowserbox](http://www.africoders.com/forum/phpbrowserbox). You can download the [full app here](https://sourceforge.net/p/phpbrowserbox/).
+You are looking at the node webkit browser2 (with toolbar) that powers [phpbrowserbox](http://www.africoders.com/forum/phpbrowserbox). You can download the [full app here](https://sourceforge.net/p/phpbrowserbox/).
 
 ## Features
  * It allows developer to use node commands inside the frontend aspect of the project that they develop.
@@ -17,7 +17,7 @@ One of the main goals of phpbrowserbox is that the browser component needs to be
 
 The icon that is displayed when the browserbox starts is the app.png inside this package.
 
-[Download the archive](https://github.com/dhtml/webkit/archive/master.zip) and simply modify it, then repackage it as webkit.exe.
+[Download the archive](https://github.com/dhtml/webkit2/archive/master.zip) and simply modify it, then repackage it as webkit.exe.
 Then copy the webkit.exe and its dependencies into the support/webkit folder of your phpbrowserbox.
 
 And that should be it.
